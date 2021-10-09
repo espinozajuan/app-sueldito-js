@@ -1,3 +1,3 @@
-# app-sueldito-js
+#Sueldito
 
-Hola
+Aplicación para controlar ingresos y egresos de sueldo.
