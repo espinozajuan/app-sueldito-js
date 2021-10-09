@@ -7,14 +7,14 @@
     <title>Sueldito</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
+<body onload="cargarApp()">
 
     <div class="cabecero">
         <div class="presupuesto">
             <div class="presupuesto_titulo">
                 Sueldo Disponible:
             </div>
-            <div class="presupuesto_valor">
+            <div class="presupuesto_valor" id="presupuesto">
                 + 50,000.00
             </div>
             <div class="presupuesto_ingreso limpiarEstilos">
@@ -22,7 +22,7 @@
                     Ingresos
                 </div>
                 <div class="derecha">
-                    <div class="presupuesto_ingreso--valor">
+                    <div class="presupuesto_ingreso--valor" id="ingresos">
                         + 10,000.00
                     </div>
                     <div class="presupuesto_ingreso--porcentaje">
@@ -35,10 +35,10 @@
                     Egresos
                 </div>
                 <div class="derecha limpiarEstilos">
-                    <div class="presupuesto_egreso--valor">
+                    <div class="presupuesto_egreso--valor" id="egresos">
                         - 20,000.00
                     </div>
-                    <div class="presupuesto_egreso--porcentaje">
+                    <div class="presupuesto_egreso--porcentaje" id="porcentaje">
                         45%
                     </div>
                 </div>
